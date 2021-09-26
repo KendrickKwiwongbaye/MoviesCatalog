@@ -25,7 +25,7 @@ const Search=()=>{
         })
     }
     const IMG_URL = "https://image.tmdb.org/t/p/w500"
-    
+    //img url from imdb database
     return(
         <div className="SeachSection">
             <input type="text" class="form-control" value={inputText} placeholder="Search Catalog " onChange={handleChange}/>

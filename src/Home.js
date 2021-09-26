@@ -15,7 +15,7 @@ const Home=()=>{
             setItems(res.data.results)
     })
     }
-    //img url for imdb database
+    
     const IMG_URL = "https://image.tmdb.org/t/p/w500"
 
     return(
