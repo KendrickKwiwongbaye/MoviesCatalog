@@ -19,5 +19,5 @@ function App() {
     </Router>
   );
 }
-
+//BrowserRouter to HashRouter
 export default App;

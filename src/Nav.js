@@ -14,5 +14,5 @@ const Nav =()=>{
         </div>
     )
 }
-
+//Links to reroute
 export default Nav
