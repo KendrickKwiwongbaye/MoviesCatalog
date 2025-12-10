@@ -19,7 +19,7 @@ const Search=()=>{
 
 
     const apiSearch=()=>{
-        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=268ab19cc092a8ffa66ba7762a042ad4&query=` + inputText).then(res=>{
+        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=&query=` + inputText).then(res=>{
             console.log(res.data.results)
             setMovieStorage(res.data.results)
         })
