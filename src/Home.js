@@ -10,7 +10,7 @@ const Home=()=>{
     },[])
 
     const getApi=()=>{
-        axios.get("https://api.themoviedb.org/3/movie/now_playing?api_key=268ab19cc092a8ffa66ba7762a042ad4&language=en-US&page=1").then(res=>{
+        axios.get("https://api.themoviedb.org/3/movie/now_playing?api_key=&language=en-US&page=1").then(res=>{
             console.log(res.data.results)
             setItems(res.data.results)
     })
